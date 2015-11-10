@@ -1,0 +1,26 @@
+{
+  "name": "materialbtn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "watch": "watchify -t babelify ./src/app.js -o ./dist/cb-mterialbtn.js"
+  },
+  "license": "MIT",
+  "browserify-shim": {
+    "jquery": "global:$"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "browserify-shim": "^3.8.11",
+    "uglify-js": "^2.5.0",
+    "watchify": "^3.6.0"
+  }
+}
