@@ -10,66 +10,80 @@
 //    }
 //  };
 
+  @mixin _type($bg) {
+    &_none {
+      background-color: $bg;
+    }
+    &_float {
+      box-shadow: 0 10px 10px #999;
+      background-color: $bg;
+    }
+    &_raise {
+      box-shadow: 0 2px 2px #999;
+      background-color: $bg;
+    }
+    &_flat {
+      background-color: $bg;
+    }
+  }
+
   @mixin -background($c50, $c100, $c200, $c300, $c400, $c500, $c600, $c700, $c800, $c900) {
     &-50 {
-      background-color: $c50;
+      @include _type($c50);
     }
     &-100 {
-      background-color: $c100;
+      @include _type($c100);
     }
     &-200 {
-      background-color: $c200;
+      @include _type($c200);
     }
     &-300 {
-      background-color: $c300;
+      @include _type($c300);
     }
     &-400 {
-      background-color: $c400;
+      @include _type($c400);
     }
     &-500 {
-      background-color: $c500;
+      @include _type($c500);
     }
     &-600 {
-      background-color: $c600;
+      @include _type($c600);
     }
     &-700 {
-      background-color: $c700;
+      @include _type($c700);
     }
     &-800 {
-      background-color: $c800;
+      @include _type($c800);
     }
     &-900 {
-      background-color: $c900;
+      @include _type($c900);
     }
   };
 
-  @mixin _color {
+  @mixin __color {
     $color: "red", "pink", "purple", "deeppurple", "indigo", "blue", "lightblue",
       "cyan", "teal", "green", "lightgreen", "lime", "yellow", "amber", "orange",
       "deeporange", "brown", "gray", "bluegray";
 
     @each $c in $color {
-      &_#{$c} {
+      &__#{$c} {
         @if $c == "red" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#ffebee, #ffcdd2, #e57373, #e57373, #ef5350, #f44336, #e53935, #d32f2f, #c62828, #b71c1c);
         }
         @else if $c == "pink" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
-        }
-        @else if $c == "pink" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#FCE4EC, #F8BBD0, #F48FB1, #F06292, #EC407A, #E91E63, #D81B60, #C2185B, #AD1457, #880E4F);
         }
         @else if $c == "purple" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#F3E5F5, #E1BEE7, #CE93D8, #BA68C8, #AB47BC, #AB47BC, #8E24AA, #7B1FA2, #6A1B9A, #4A148C);
         }
         @else if $c == "deeppurple" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#EDE7F6, #D1C4E9, #B39DDB, #9575CD, #7E57C2, #673AB7, #8E24AA, #512DA8, #4527A0, #311B92);
         }
         @else if $c == "indigo" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#E8EAF6, #C5CAE9, #9FA8DA, #7986CB, #5C6BC0, #3F51B5, #3949AB, #303F9F, #283593, #1A237E);
         }
         @else if $c == "blue" {
-          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+          @include -background(#E3F2FD, #BBDEFB, #90CAF9, #64B5F6, #42A5F5, #2196F3, #1E88E5, #1976D2, #1565C0, #0D47A1);
         }
         @else if $c == "lightblue" {
           @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
@@ -115,16 +129,6 @@
 
   }
 
-  &__normal {
-    @include _color;
-  }
-  &__float {
-    @include _color;
-  }
-  &__raise {
-    @include _color;
-  }
-  &__flat {
-    @include _color;
-  }
+  @include __color;
+
 }
