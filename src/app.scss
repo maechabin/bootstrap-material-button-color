@@ -1,0 +1,130 @@
+.mtbtn {
+
+//  @mixin -background($c50, $c100, $c200, $c300, $c400, $c500, $c600, $c700, $c800, $c900) {
+//    $number: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900;
+//
+//    @each $n in $number {
+//      &-#{$n} {
+//        background-color: $c#{$n};
+//      }
+//    }
+//  };
+
+  @mixin -background($c50, $c100, $c200, $c300, $c400, $c500, $c600, $c700, $c800, $c900) {
+    &-50 {
+      background-color: $c50;
+    }
+    &-100 {
+      background-color: $c100;
+    }
+    &-200 {
+      background-color: $c200;
+    }
+    &-300 {
+      background-color: $c300;
+    }
+    &-400 {
+      background-color: $c400;
+    }
+    &-500 {
+      background-color: $c500;
+    }
+    &-600 {
+      background-color: $c600;
+    }
+    &-700 {
+      background-color: $c700;
+    }
+    &-800 {
+      background-color: $c800;
+    }
+    &-900 {
+      background-color: $c900;
+    }
+  };
+
+  @mixin _color {
+    $color: "red", "pink", "purple", "deeppurple", "indigo", "blue", "lightblue",
+      "cyan", "teal", "green", "lightgreen", "lime", "yellow", "amber", "orange",
+      "deeporange", "brown", "gray", "bluegray";
+
+    @each $c in $color {
+      &_#{$c} {
+        @if $c == "red" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "pink" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "pink" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "purple" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "deeppurple" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "indigo" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "blue" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "lightblue" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "cyan" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "teal" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "green" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "lightgreen" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "lime" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "yellow" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "amber" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "orange" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "deeporange" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "brown" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "gray" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+        @else if $c == "bluegray" {
+          @include -background("#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333", "#333");
+        }
+      }
+    }
+
+  }
+
+  &__normal {
+    @include _color;
+  }
+  &__float {
+    @include _color;
+  }
+  &__raise {
+    @include _color;
+  }
+  &__flat {
+    @include _color;
+  }
+}
