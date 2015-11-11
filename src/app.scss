@@ -93,7 +93,11 @@
   }
 
   @mixin button-style {
+    text-align: center;
+    text-decoration: none;
+    outline: none;
     cursor: pointer;
+    transition: .3s;
   }
 
   @mixin _type($key, $value, $color) {
@@ -109,11 +113,11 @@
       }
       &:active {
         background-color: adjust-color($value, $alpha: -0.2);
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+        box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       }
     }
     &_raised {
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       background-color: $value;
       @include button-style;
       &:hover {

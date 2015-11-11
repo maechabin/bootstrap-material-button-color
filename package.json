@@ -1,9 +1,9 @@
 {
   "name": "materialbtn",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "",
+  "version": "0.0.1",
+  "description": "Material Button",
+  "main": "cb-materialbtn.css",
+  "author": "maechabin",
   "scripts": {
     "watch": "watchify -t babelify ./src/app.js -o ./dist/cb-mterialbtn.js",
     "css-watch": "sass --watch ./src/app.scss:./dist/cb-materialbtn.css"

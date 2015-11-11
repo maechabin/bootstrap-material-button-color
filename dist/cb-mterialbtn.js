@@ -1,1 +1,0 @@
-console.error("SyntaxError: c:/xampp/htdocs/project/materialbtn/src/app.js: Unexpected token (21:8) while parsing file: c:\\xampp\\htdocs\\project\\materialbtn\\src\\app.js");
