@@ -1,3 +1,11 @@
+%button-style {
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
 .mbtn {
 
   $color: "red", "pink", "purple", "deeppurple", "indigo", "blue", "lightblue",
@@ -92,14 +100,6 @@
     }
   }
 
-  @mixin button-style {
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    transition: .3s;
-  }
-
   @mixin _type($key, $value, $color) {
     &_none {
       background-color: $value;
@@ -107,7 +107,7 @@
     &_floating {
       box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       background-color: $value;
-      @include button-style;
+      @extend %button-style;
       &:hover {
         background-color: adjust-color($value, $alpha: -0.4);
       }
@@ -119,7 +119,7 @@
     &_raised {
       box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       background-color: $value;
-      @include button-style;
+      @extend %button-style;
       &:hover {
         background-color: map-get($color-chart, 600);
       }
@@ -130,7 +130,7 @@
     }
     &_flat {
       color: $color;
-      @include button-style;
+      @extend %button-style;
       &:hover {
         background-color: adjust-color($value, $alpha: -0.8);
       }
