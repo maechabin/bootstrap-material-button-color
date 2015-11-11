@@ -2,11 +2,11 @@
   "name": "materialbtn",
   "version": "0.0.1",
   "description": "Material Button",
-  "main": "cb-materialbtn.css",
+  "main": "cb-materialbtn.min.css",
   "author": "maechabin",
   "scripts": {
-    "watch": "watchify -t babelify ./src/app.js -o ./dist/cb-mterialbtn.js",
-    "css-watch": "sass --watch ./src/app.scss:./dist/cb-materialbtn.css"
+    "watch": "sass --watch ./src/app.scss:./dist/cb-materialbtn.css --style expanded",
+    "build": "sass ./src/app.scss:./dist/cb-materialbtn.min.css --style compressed"
   },
   "license": "MIT",
   "browserify-shim": {
