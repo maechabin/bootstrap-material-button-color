@@ -191,7 +191,7 @@
       &:active {
         color: textColor($color, $key);
         background-color: adjust-color($value, $alpha: -0.2);
-        box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       }
       &:disabled {
         color: adjust-color(#000, $alpha: -0.7);
@@ -203,7 +203,7 @@
       @extend %button-style;
       color: textColor($color, $key);
       background-color: $value;
-      box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       &:hover {
         color: textColor($color, $key);
         background-color: map-get($color-chart, 600);
@@ -227,7 +227,6 @@
         background-color: adjust-color($value, $alpha: -0.8);
       }
       &:active {
-        color: $value;
         background-color: adjust-color($value, $alpha: -0.6);
         box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       }
