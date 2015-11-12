@@ -32,8 +32,71 @@
   $brown: (50: #efebe9, 100: #d7ccc8, 200: #bcaaa4, 300: #a1887f, 400: #8d6e63, 500: #795548, 600: #6d4c41, 700: #5d4037, 800: #4e342e, 900: #3e2723);
   $gray: (50: #fafafa, 100: #f5f5f5, 200: #eeeeee, 300: #e0e0e0, 400: #bdbdbd, 500: #9e9e9e, 600: #757575, 700: #616161, 800: #424242, 900: #212121);
   $bluegray: (50: #eceff1, 100: #cfd8dc, 200: #b0bec5, 300: #90a4ae, 400: #78909c, 500: #607d8b, 600: #546e7a, 700: #455a64, 800: #37474f, 900: #263238);
-  $black: (0: #000);
+  $black: (1000: #000);
   $white: (0: #fff);
+
+  @function textColor($c, $k) {
+    @if $c == "red" and $k >= 400 {
+      @return #fff;
+    }
+    @else if $c == "pink" and $k >= 300 {
+      @return #fff;
+    }
+    @else if $c == "purple" and $k >= 300 {
+      @return #fff;
+    }
+    @else if $c == "deeppuple" and $k >= 300 {
+      @return #fff;
+    }
+    @else if $c == "indigo" and $k >= 300 {
+      @return #fff;
+    }
+    @else if $c == "red" and $k >= 400 {
+      @return #fff;
+    }
+    @else if $c == "blue" and $k >= 500 {
+      @return #fff;
+    }
+    @else if $c == "lightblue" and $k >= 600 {
+      @return #fff;
+    }
+    @else if $c == "cyan" and $k >= 700 {
+      @return #fff;
+    }
+    @else if $c == "teal" and $k >= 500 {
+      @return #fff;
+    }
+    @else if $c == "green" and $k >= 600 {
+      @return #fff;
+    }
+    @else if $c == "lightgreen" and $k >= 700 {
+      @return #fff;
+    }
+    @else if $c == "lime" and $k >= 900 {
+      @return #fff;
+    }
+    @else if $c == "orange" and $k >= 800 {
+      @return #fff;
+    }
+    @else if $c == "deeporange" and $k >= 500 {
+      @return #fff;
+    }
+    @else if $c == "brown" and $k >= 300 {
+      @return #fff;
+    }
+    @else if $c == "gray" and $k >= 600 {
+      @return #fff;
+    }
+    @else if $c == "bluegray" and $k >= 400 {
+      @return #fff;
+    }
+    @else if $c == "black" {
+      @return #fff;
+    }
+    @else {
+      @return inherit;
+    }
+  }
 
   @mixin -setColor($c) {
 
@@ -103,51 +166,73 @@
 
     @each $k, $v in $color-chart {
       @if $color-chart == $black or $color-chart == $white {
-        @include _type($k, $v);
+        @include _type($k, $v, $c);
       }
       @else {
         &-#{$k} {
-          @include _type($k, $v);
+          @include _type($k, $v, $c);
         }
       }
     }
   }
 
-  @mixin _type($key, $value) {
+  @mixin _type($key, $value, $color) {
+    color: textColor($color, $key);
     background-color: $value;
     &_floating {
       @extend %button-style;
+      color: textColor($color, $key);
       background-color: $value;
       box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       &:hover {
+        color: textColor($color, $key);
         background-color: adjust-color($value, $alpha: -0.4);
       }
       &:active {
+        color: textColor($color, $key);
         background-color: adjust-color($value, $alpha: -0.2);
         box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+      }
+      &:disabled {
+        color: adjust-color(#000, $alpha: -0.7);
+        background-color: adjust-color(#000, $alpha: -0.8);
+        box-shadow:none;
       }
     }
     &_raised {
       @extend %button-style;
+      color: textColor($color, $key);
       background-color: $value;
       box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       &:hover {
+        color: textColor($color, $key);
         background-color: map-get($color-chart, 600);
       }
       &:active {
+        color: textColor($color, $key);
         background-color: map-get($color-chart, 700);
         box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       }
+    }
+    &:disabled {
+      color: adjust-color(#000, $alpha: -0.7);
+      background-color: adjust-color(#000, $alpha: -0.8);
+      box-shadow:none;
     }
     &_flat {
       @extend %button-style;
       color: $value;
       &:hover {
+        color: $value;
         background-color: adjust-color($value, $alpha: -0.8);
       }
       &:active {
+        color: $value;
         background-color: adjust-color($value, $alpha: -0.6);
         box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+      }
+      &:disabled {
+        color: adjust-color($value, $alpha: -0.7);
       }
     }
   }
