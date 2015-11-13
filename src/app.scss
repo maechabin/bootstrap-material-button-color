@@ -1,10 +1,7 @@
-%button-style {
+.btn {
   text-decoration: none;
   outline: none;
   transition: .3s;
-}
-
-.btn {
 
   $color-list: "red", "pink", "purple", "deeppurple", "indigo", "blue", "lightblue",
     "cyan", "teal", "green", "lightgreen", "lime", "yellow", "amber", "orange",
@@ -178,10 +175,8 @@
     color: textColor($color, $key);
     background-color: $value;
     &_floating {
-      @extend %button-style;
       color: textColor($color, $key);
       background-color: $value;
-      box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       &:hover {
         color: textColor($color, $key);
         background-color: adjust-color($value, $alpha: -0.4);
@@ -189,19 +184,15 @@
       &:active {
         color: textColor($color, $key);
         background-color: adjust-color($value, $alpha: -0.2);
-        box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       }
       &:disabled {
         color: adjust-color(#000, $alpha: -0.7);
         background-color: adjust-color(#000, $alpha: -0.8);
-        box-shadow:none;
       }
     }
     &_raised {
-      @extend %button-style;
       color: textColor($color, $key);
       background-color: $value;
-      box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
       &:hover {
         color: textColor($color, $key);
         background-color: map-get($color-chart, 600);
@@ -209,16 +200,13 @@
       &:active {
         color: textColor($color, $key);
         background-color: map-get($color-chart, 700);
-        box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       }
     }
     &:disabled {
       color: adjust-color(#000, $alpha: -0.7);
       background-color: adjust-color(#000, $alpha: -0.8);
-      box-shadow:none;
     }
     &_flat {
-      @extend %button-style;
       color: $value;
       &:hover {
         color: $value;
@@ -226,7 +214,6 @@
       }
       &:active {
         background-color: adjust-color($value, $alpha: -0.6);
-        box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
       }
       &:disabled {
         color: adjust-color($value, $alpha: -0.7);
@@ -244,4 +231,31 @@
 
   @include __color;
 
+}
+
+[class$="_floating"] {
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  &:active {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+  }
+  &:disabled {
+    box-shadow: none;
+  }
+}
+[class$="_raised"] {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+  &:active {
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  }
+  &:disabled {
+    box-shadow: none;
+  }
+}
+[class$="_flat"] {
+  &:active {
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  }
+  &:disabled {
+    box-shadow: none;
+  }
 }
