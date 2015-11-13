@@ -232,8 +232,8 @@
   @include __color;
 
 }
-
-[class$="_floating"] {
+[class$="_floating"],
+[class*="_floating "] {
   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
   &:active {
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
@@ -242,7 +242,8 @@
     box-shadow: none;
   }
 }
-[class$="_raised"] {
+[class$="_raised"],
+[class*="_raised "] {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
   &:active {
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
@@ -251,7 +252,8 @@
     box-shadow: none;
   }
 }
-[class$="_flat"] {
+[class$="_flat"],
+[class*="_flat "] {
   &:active {
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
   }
