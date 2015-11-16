@@ -8,6 +8,10 @@
     "watch": "sass --watch ./src/app.scss:./dist/cb-materialbtn.css --style expanded",
     "build": "sass ./src/app.scss:./dist/cb-materialbtn.min.css --style compressed"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maechabin/bootstrap-material-button-color.git"
+  },
   "license": "MIT",
   "browserify-shim": {
     "jquery": "global:$"
@@ -24,5 +28,9 @@
     "browserify-shim": "^3.8.11",
     "uglify-js": "^2.5.0",
     "watchify": "^3.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/maechabin/bootstrap-material-button-color/issues"
+  },
+  "homepage": "https://github.com/maechabin/bootstrap-material-button-color"
 }

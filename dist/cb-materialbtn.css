@@ -8274,13 +8274,4 @@
   box-shadow: none;
 }
 
-[class$="_flat"]:active,
-[class*="_flat "]:active {
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-}
-[class$="_flat"]:disabled,
-[class*="_flat "]:disabled {
-  box-shadow: none;
-}
-
 /*# sourceMappingURL=cb-materialbtn.css.map */
