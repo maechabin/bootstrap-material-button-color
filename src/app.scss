@@ -93,7 +93,7 @@
     }
   }
 
-  @mixin -setColor($c) {
+  @mixin setColor($c) {
 
     @if $c == "red" {
       $color-chart: $red;
@@ -215,15 +215,15 @@
     }
   }
 
-  @mixin __color {
+  @mixin -color {
     @each $c in $color-list {
-      &__#{$c} {
-        @include -setColor($c);
+      &-#{$c} {
+        @include setColor($c);
       }
     }
   }
 
-  @include __color;
+  @include -color;
 
 }
 [class$="_floating"],
