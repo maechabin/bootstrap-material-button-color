@@ -172,42 +172,42 @@
   }
 
   @mixin _type($key, $value, $color) {
-    background-color: $value;
+    background: $value;
     &_floating {
       color: textColor($color, $key) !important;
-      background-color: $value;
+      background: $value;
       &:hover {
-        background-color: adjust-color($value, $alpha: -0.4);
+        background: adjust-color($value, $alpha: -0.4);
       }
       &:active {
-        background-color: adjust-color($value, $alpha: -0.2);
+        background: adjust-color($value, $alpha: -0.2);
       }
       &:disabled {
         color: adjust-color(#000, $alpha: -0.7);
-        background-color: adjust-color(#000, $alpha: -0.8);
+        background: adjust-color(#000, $alpha: -0.8);
       }
     }
     &_raised {
       color: textColor($color, $key) !important;
-      background-color: $value;
+      background: $value;
       &:hover {
-        background-color: map-get($color-chart, 600);
+        background: map-get($color-chart, 600);
       }
       &:active {
-        background-color: map-get($color-chart, 700);
+        background: map-get($color-chart, 700);
       }
       &:disabled {
         color: adjust-color(#000, $alpha: -0.7);
-        background-color: adjust-color(#000, $alpha: -0.8);
+        background: adjust-color(#000, $alpha: -0.8);
       }
     }
     &_flat {
       color: $value !important;
       &:hover {
-        background-color: adjust-color($value, $alpha: -0.8);
+        background: adjust-color($value, $alpha: -0.8);
       }
       &:active {
-        background-color: adjust-color($value, $alpha: -0.6);
+        background: adjust-color($value, $alpha: -0.6);
       }
       &:disabled {
         color: adjust-color($value, $alpha: -0.7);
