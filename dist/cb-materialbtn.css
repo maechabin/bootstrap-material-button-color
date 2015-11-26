@@ -7,7 +7,7 @@
   background: #ffebee;
 }
 .btn__red50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffebee;
 }
 .btn__red50_floating:hover {
@@ -21,7 +21,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__red50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffebee;
 }
 .btn__red50_raised:hover {
@@ -50,7 +50,7 @@
   background: #ffcdd2;
 }
 .btn__red100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffcdd2;
 }
 .btn__red100_floating:hover {
@@ -64,7 +64,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__red100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffcdd2;
 }
 .btn__red100_raised:hover {
@@ -93,7 +93,7 @@
   background: #e57373;
 }
 .btn__red200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e57373;
 }
 .btn__red200_floating:hover {
@@ -107,7 +107,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__red200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e57373;
 }
 .btn__red200_raised:hover {
@@ -136,7 +136,7 @@
   background: #e57373;
 }
 .btn__red300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e57373;
 }
 .btn__red300_floating:hover {
@@ -150,7 +150,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__red300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e57373;
 }
 .btn__red300_raised:hover {
@@ -437,7 +437,7 @@
   background: #fce4ec;
 }
 .btn__pink50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fce4ec;
 }
 .btn__pink50_floating:hover {
@@ -451,7 +451,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__pink50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fce4ec;
 }
 .btn__pink50_raised:hover {
@@ -480,7 +480,7 @@
   background: #f8bbd0;
 }
 .btn__pink100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f8bbd0;
 }
 .btn__pink100_floating:hover {
@@ -494,7 +494,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__pink100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f8bbd0;
 }
 .btn__pink100_raised:hover {
@@ -523,7 +523,7 @@
   background: #f48fb1;
 }
 .btn__pink200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f48fb1;
 }
 .btn__pink200_floating:hover {
@@ -537,7 +537,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__pink200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f48fb1;
 }
 .btn__pink200_raised:hover {
@@ -867,7 +867,7 @@
   background: #f3e5f5;
 }
 .btn__purple50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f3e5f5;
 }
 .btn__purple50_floating:hover {
@@ -881,7 +881,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__purple50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f3e5f5;
 }
 .btn__purple50_raised:hover {
@@ -910,7 +910,7 @@
   background: #e1bee7;
 }
 .btn__purple100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e1bee7;
 }
 .btn__purple100_floating:hover {
@@ -924,7 +924,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__purple100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e1bee7;
 }
 .btn__purple100_raised:hover {
@@ -953,7 +953,7 @@
   background: #ce93d8;
 }
 .btn__purple200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ce93d8;
 }
 .btn__purple200_floating:hover {
@@ -967,7 +967,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__purple200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ce93d8;
 }
 .btn__purple200_raised:hover {
@@ -1297,7 +1297,7 @@
   background: #ede7f6;
 }
 .btn__deeppurple50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ede7f6;
 }
 .btn__deeppurple50_floating:hover {
@@ -1311,7 +1311,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ede7f6;
 }
 .btn__deeppurple50_raised:hover {
@@ -1340,7 +1340,7 @@
   background: #d1c4e9;
 }
 .btn__deeppurple100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d1c4e9;
 }
 .btn__deeppurple100_floating:hover {
@@ -1354,7 +1354,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d1c4e9;
 }
 .btn__deeppurple100_raised:hover {
@@ -1383,7 +1383,7 @@
   background: #b39ddb;
 }
 .btn__deeppurple200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b39ddb;
 }
 .btn__deeppurple200_floating:hover {
@@ -1397,7 +1397,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b39ddb;
 }
 .btn__deeppurple200_raised:hover {
@@ -1426,7 +1426,7 @@
   background: #9575cd;
 }
 .btn__deeppurple300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9575cd;
 }
 .btn__deeppurple300_floating:hover {
@@ -1440,7 +1440,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9575cd;
 }
 .btn__deeppurple300_raised:hover {
@@ -1469,7 +1469,7 @@
   background: #7e57c2;
 }
 .btn__deeppurple400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #7e57c2;
 }
 .btn__deeppurple400_floating:hover {
@@ -1483,7 +1483,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #7e57c2;
 }
 .btn__deeppurple400_raised:hover {
@@ -1512,7 +1512,7 @@
   background: #673ab7;
 }
 .btn__deeppurple500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #673ab7;
 }
 .btn__deeppurple500_floating:hover {
@@ -1526,7 +1526,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #673ab7;
 }
 .btn__deeppurple500_raised:hover {
@@ -1555,7 +1555,7 @@
   background: #5e35b1;
 }
 .btn__deeppurple600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #5e35b1;
 }
 .btn__deeppurple600_floating:hover {
@@ -1569,7 +1569,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #5e35b1;
 }
 .btn__deeppurple600_raised:hover {
@@ -1598,7 +1598,7 @@
   background: #512da8;
 }
 .btn__deeppurple700_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #512da8;
 }
 .btn__deeppurple700_floating:hover {
@@ -1612,7 +1612,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple700_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #512da8;
 }
 .btn__deeppurple700_raised:hover {
@@ -1641,7 +1641,7 @@
   background: #4527a0;
 }
 .btn__deeppurple800_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4527a0;
 }
 .btn__deeppurple800_floating:hover {
@@ -1655,7 +1655,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple800_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4527a0;
 }
 .btn__deeppurple800_raised:hover {
@@ -1684,7 +1684,7 @@
   background: #311b92;
 }
 .btn__deeppurple900_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #311b92;
 }
 .btn__deeppurple900_floating:hover {
@@ -1698,7 +1698,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeppurple900_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #311b92;
 }
 .btn__deeppurple900_raised:hover {
@@ -1727,7 +1727,7 @@
   background: #e8eaf6;
 }
 .btn__indigo50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e8eaf6;
 }
 .btn__indigo50_floating:hover {
@@ -1741,7 +1741,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__indigo50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e8eaf6;
 }
 .btn__indigo50_raised:hover {
@@ -1770,7 +1770,7 @@
   background: #c5cae9;
 }
 .btn__indigo100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c5cae9;
 }
 .btn__indigo100_floating:hover {
@@ -1784,7 +1784,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__indigo100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c5cae9;
 }
 .btn__indigo100_raised:hover {
@@ -1813,7 +1813,7 @@
   background: #9fa8da;
 }
 .btn__indigo200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9fa8da;
 }
 .btn__indigo200_floating:hover {
@@ -1827,7 +1827,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__indigo200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9fa8da;
 }
 .btn__indigo200_raised:hover {
@@ -2157,7 +2157,7 @@
   background: #e3f2fd;
 }
 .btn__blue50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e3f2fd;
 }
 .btn__blue50_floating:hover {
@@ -2171,7 +2171,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__blue50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e3f2fd;
 }
 .btn__blue50_raised:hover {
@@ -2200,7 +2200,7 @@
   background: #bbdefb;
 }
 .btn__blue100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bbdefb;
 }
 .btn__blue100_floating:hover {
@@ -2214,7 +2214,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__blue100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bbdefb;
 }
 .btn__blue100_raised:hover {
@@ -2243,7 +2243,7 @@
   background: #90caf9;
 }
 .btn__blue200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #90caf9;
 }
 .btn__blue200_floating:hover {
@@ -2257,7 +2257,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__blue200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #90caf9;
 }
 .btn__blue200_raised:hover {
@@ -2286,7 +2286,7 @@
   background: #64b5f6;
 }
 .btn__blue300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #64b5f6;
 }
 .btn__blue300_floating:hover {
@@ -2300,7 +2300,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__blue300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #64b5f6;
 }
 .btn__blue300_raised:hover {
@@ -2329,7 +2329,7 @@
   background: #42a5f5;
 }
 .btn__blue400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #42a5f5;
 }
 .btn__blue400_floating:hover {
@@ -2343,7 +2343,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__blue400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #42a5f5;
 }
 .btn__blue400_raised:hover {
@@ -2587,7 +2587,7 @@
   background: #e1f5fe;
 }
 .btn__lightblue50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e1f5fe;
 }
 .btn__lightblue50_floating:hover {
@@ -2601,7 +2601,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e1f5fe;
 }
 .btn__lightblue50_raised:hover {
@@ -2630,7 +2630,7 @@
   background: #b3e5fc;
 }
 .btn__lightblue100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b3e5fc;
 }
 .btn__lightblue100_floating:hover {
@@ -2644,7 +2644,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b3e5fc;
 }
 .btn__lightblue100_raised:hover {
@@ -2673,7 +2673,7 @@
   background: #81d4fa;
 }
 .btn__lightblue200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #81d4fa;
 }
 .btn__lightblue200_floating:hover {
@@ -2687,7 +2687,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #81d4fa;
 }
 .btn__lightblue200_raised:hover {
@@ -2716,7 +2716,7 @@
   background: #4fc3f7;
 }
 .btn__lightblue300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4fc3f7;
 }
 .btn__lightblue300_floating:hover {
@@ -2730,7 +2730,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4fc3f7;
 }
 .btn__lightblue300_raised:hover {
@@ -2759,7 +2759,7 @@
   background: #29b6f6;
 }
 .btn__lightblue400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #29b6f6;
 }
 .btn__lightblue400_floating:hover {
@@ -2773,7 +2773,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #29b6f6;
 }
 .btn__lightblue400_raised:hover {
@@ -2802,7 +2802,7 @@
   background: #03a9f4;
 }
 .btn__lightblue500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #03a9f4;
 }
 .btn__lightblue500_floating:hover {
@@ -2816,7 +2816,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightblue500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #03a9f4;
 }
 .btn__lightblue500_raised:hover {
@@ -3017,7 +3017,7 @@
   background: #e0f7fa;
 }
 .btn__cyan50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0f7fa;
 }
 .btn__cyan50_floating:hover {
@@ -3031,7 +3031,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0f7fa;
 }
 .btn__cyan50_raised:hover {
@@ -3060,7 +3060,7 @@
   background: #b2ebf2;
 }
 .btn__cyan100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b2ebf2;
 }
 .btn__cyan100_floating:hover {
@@ -3074,7 +3074,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b2ebf2;
 }
 .btn__cyan100_raised:hover {
@@ -3103,7 +3103,7 @@
   background: #80deea;
 }
 .btn__cyan200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #80deea;
 }
 .btn__cyan200_floating:hover {
@@ -3117,7 +3117,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #80deea;
 }
 .btn__cyan200_raised:hover {
@@ -3146,7 +3146,7 @@
   background: #4dd0e1;
 }
 .btn__cyan300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4dd0e1;
 }
 .btn__cyan300_floating:hover {
@@ -3160,7 +3160,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4dd0e1;
 }
 .btn__cyan300_raised:hover {
@@ -3189,7 +3189,7 @@
   background: #26c6da;
 }
 .btn__cyan400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #26c6da;
 }
 .btn__cyan400_floating:hover {
@@ -3203,7 +3203,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #26c6da;
 }
 .btn__cyan400_raised:hover {
@@ -3232,7 +3232,7 @@
   background: #00bcd4;
 }
 .btn__cyan500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #00bcd4;
 }
 .btn__cyan500_floating:hover {
@@ -3246,7 +3246,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #00bcd4;
 }
 .btn__cyan500_raised:hover {
@@ -3275,7 +3275,7 @@
   background: #00acc1;
 }
 .btn__cyan600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #00acc1;
 }
 .btn__cyan600_floating:hover {
@@ -3289,7 +3289,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__cyan600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #00acc1;
 }
 .btn__cyan600_raised:hover {
@@ -3447,7 +3447,7 @@
   background: #e0f2f1;
 }
 .btn__teal50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0f2f1;
 }
 .btn__teal50_floating:hover {
@@ -3461,7 +3461,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__teal50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0f2f1;
 }
 .btn__teal50_raised:hover {
@@ -3490,7 +3490,7 @@
   background: #b2dfdb;
 }
 .btn__teal100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b2dfdb;
 }
 .btn__teal100_floating:hover {
@@ -3504,7 +3504,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__teal100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b2dfdb;
 }
 .btn__teal100_raised:hover {
@@ -3533,7 +3533,7 @@
   background: #80cbc4;
 }
 .btn__teal200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #80cbc4;
 }
 .btn__teal200_floating:hover {
@@ -3547,7 +3547,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__teal200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #80cbc4;
 }
 .btn__teal200_raised:hover {
@@ -3576,7 +3576,7 @@
   background: #4db6ac;
 }
 .btn__teal300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4db6ac;
 }
 .btn__teal300_floating:hover {
@@ -3590,7 +3590,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__teal300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4db6ac;
 }
 .btn__teal300_raised:hover {
@@ -3619,7 +3619,7 @@
   background: #26a69a;
 }
 .btn__teal400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #26a69a;
 }
 .btn__teal400_floating:hover {
@@ -3633,7 +3633,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__teal400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #26a69a;
 }
 .btn__teal400_raised:hover {
@@ -3877,7 +3877,7 @@
   background: #e8f5e9;
 }
 .btn__green50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e8f5e9;
 }
 .btn__green50_floating:hover {
@@ -3891,7 +3891,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e8f5e9;
 }
 .btn__green50_raised:hover {
@@ -3920,7 +3920,7 @@
   background: #c8e6c9;
 }
 .btn__green100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c8e6c9;
 }
 .btn__green100_floating:hover {
@@ -3934,7 +3934,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c8e6c9;
 }
 .btn__green100_raised:hover {
@@ -3963,7 +3963,7 @@
   background: #a5d6a7;
 }
 .btn__green200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #a5d6a7;
 }
 .btn__green200_floating:hover {
@@ -3977,7 +3977,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #a5d6a7;
 }
 .btn__green200_raised:hover {
@@ -4006,7 +4006,7 @@
   background: #81c784;
 }
 .btn__green300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #81c784;
 }
 .btn__green300_floating:hover {
@@ -4020,7 +4020,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #81c784;
 }
 .btn__green300_raised:hover {
@@ -4049,7 +4049,7 @@
   background: #66bb6a;
 }
 .btn__green400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #66bb6a;
 }
 .btn__green400_floating:hover {
@@ -4063,7 +4063,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #66bb6a;
 }
 .btn__green400_raised:hover {
@@ -4092,7 +4092,7 @@
   background: #4caf50;
 }
 .btn__green500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4caf50;
 }
 .btn__green500_floating:hover {
@@ -4106,7 +4106,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__green500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #4caf50;
 }
 .btn__green500_raised:hover {
@@ -4307,7 +4307,7 @@
   background: #f1f8e9;
 }
 .btn__lightgreen50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f1f8e9;
 }
 .btn__lightgreen50_floating:hover {
@@ -4321,7 +4321,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f1f8e9;
 }
 .btn__lightgreen50_raised:hover {
@@ -4350,7 +4350,7 @@
   background: #dcedc8;
 }
 .btn__lightgreen100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #dcedc8;
 }
 .btn__lightgreen100_floating:hover {
@@ -4364,7 +4364,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #dcedc8;
 }
 .btn__lightgreen100_raised:hover {
@@ -4393,7 +4393,7 @@
   background: #c5e1a5;
 }
 .btn__lightgreen200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c5e1a5;
 }
 .btn__lightgreen200_floating:hover {
@@ -4407,7 +4407,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c5e1a5;
 }
 .btn__lightgreen200_raised:hover {
@@ -4436,7 +4436,7 @@
   background: #aed581;
 }
 .btn__lightgreen300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #aed581;
 }
 .btn__lightgreen300_floating:hover {
@@ -4450,7 +4450,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #aed581;
 }
 .btn__lightgreen300_raised:hover {
@@ -4479,7 +4479,7 @@
   background: #9ccc65;
 }
 .btn__lightgreen400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9ccc65;
 }
 .btn__lightgreen400_floating:hover {
@@ -4493,7 +4493,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9ccc65;
 }
 .btn__lightgreen400_raised:hover {
@@ -4522,7 +4522,7 @@
   background: #8bc34a;
 }
 .btn__lightgreen500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #8bc34a;
 }
 .btn__lightgreen500_floating:hover {
@@ -4536,7 +4536,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #8bc34a;
 }
 .btn__lightgreen500_raised:hover {
@@ -4565,7 +4565,7 @@
   background: #7cb342;
 }
 .btn__lightgreen600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #7cb342;
 }
 .btn__lightgreen600_floating:hover {
@@ -4579,7 +4579,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lightgreen600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #7cb342;
 }
 .btn__lightgreen600_raised:hover {
@@ -4737,7 +4737,7 @@
   background: #f9fbe7;
 }
 .btn__lime50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f9fbe7;
 }
 .btn__lime50_floating:hover {
@@ -4751,7 +4751,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f9fbe7;
 }
 .btn__lime50_raised:hover {
@@ -4780,7 +4780,7 @@
   background: #f0f4c3;
 }
 .btn__lime100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f0f4c3;
 }
 .btn__lime100_floating:hover {
@@ -4794,7 +4794,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f0f4c3;
 }
 .btn__lime100_raised:hover {
@@ -4823,7 +4823,7 @@
   background: #e6ee9c;
 }
 .btn__lime200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e6ee9c;
 }
 .btn__lime200_floating:hover {
@@ -4837,7 +4837,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e6ee9c;
 }
 .btn__lime200_raised:hover {
@@ -4866,7 +4866,7 @@
   background: #dce775;
 }
 .btn__lime300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #dce775;
 }
 .btn__lime300_floating:hover {
@@ -4880,7 +4880,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #dce775;
 }
 .btn__lime300_raised:hover {
@@ -4909,7 +4909,7 @@
   background: #d4e157;
 }
 .btn__lime400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d4e157;
 }
 .btn__lime400_floating:hover {
@@ -4923,7 +4923,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d4e157;
 }
 .btn__lime400_raised:hover {
@@ -4952,7 +4952,7 @@
   background: #cddc39;
 }
 .btn__lime500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #cddc39;
 }
 .btn__lime500_floating:hover {
@@ -4966,7 +4966,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #cddc39;
 }
 .btn__lime500_raised:hover {
@@ -4995,7 +4995,7 @@
   background: #c0ca33;
 }
 .btn__lime600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c0ca33;
 }
 .btn__lime600_floating:hover {
@@ -5009,7 +5009,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #c0ca33;
 }
 .btn__lime600_raised:hover {
@@ -5038,7 +5038,7 @@
   background: #afb42b;
 }
 .btn__lime700_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #afb42b;
 }
 .btn__lime700_floating:hover {
@@ -5052,7 +5052,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime700_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #afb42b;
 }
 .btn__lime700_raised:hover {
@@ -5081,7 +5081,7 @@
   background: #9e9d24;
 }
 .btn__lime800_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9e9d24;
 }
 .btn__lime800_floating:hover {
@@ -5095,7 +5095,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__lime800_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9e9d24;
 }
 .btn__lime800_raised:hover {
@@ -5167,7 +5167,7 @@
   background: #fffde7;
 }
 .btn__yellow50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fffde7;
 }
 .btn__yellow50_floating:hover {
@@ -5181,7 +5181,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fffde7;
 }
 .btn__yellow50_raised:hover {
@@ -5210,7 +5210,7 @@
   background: #fff9c4;
 }
 .btn__yellow100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff9c4;
 }
 .btn__yellow100_floating:hover {
@@ -5224,7 +5224,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff9c4;
 }
 .btn__yellow100_raised:hover {
@@ -5253,7 +5253,7 @@
   background: #fff59d;
 }
 .btn__yellow200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff59d;
 }
 .btn__yellow200_floating:hover {
@@ -5267,7 +5267,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff59d;
 }
 .btn__yellow200_raised:hover {
@@ -5296,7 +5296,7 @@
   background: #fff176;
 }
 .btn__yellow300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff176;
 }
 .btn__yellow300_floating:hover {
@@ -5310,7 +5310,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff176;
 }
 .btn__yellow300_raised:hover {
@@ -5339,7 +5339,7 @@
   background: #ffee58;
 }
 .btn__yellow400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffee58;
 }
 .btn__yellow400_floating:hover {
@@ -5353,7 +5353,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffee58;
 }
 .btn__yellow400_raised:hover {
@@ -5382,7 +5382,7 @@
   background: #ffeb3b;
 }
 .btn__yellow500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffeb3b;
 }
 .btn__yellow500_floating:hover {
@@ -5396,7 +5396,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffeb3b;
 }
 .btn__yellow500_raised:hover {
@@ -5425,7 +5425,7 @@
   background: #fdd835;
 }
 .btn__yellow600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fdd835;
 }
 .btn__yellow600_floating:hover {
@@ -5439,7 +5439,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fdd835;
 }
 .btn__yellow600_raised:hover {
@@ -5468,7 +5468,7 @@
   background: #fbc02d;
 }
 .btn__yellow700_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fbc02d;
 }
 .btn__yellow700_floating:hover {
@@ -5482,7 +5482,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow700_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fbc02d;
 }
 .btn__yellow700_raised:hover {
@@ -5511,7 +5511,7 @@
   background: #f9a825;
 }
 .btn__yellow800_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f9a825;
 }
 .btn__yellow800_floating:hover {
@@ -5525,7 +5525,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow800_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f9a825;
 }
 .btn__yellow800_raised:hover {
@@ -5554,7 +5554,7 @@
   background: #f57f17;
 }
 .btn__yellow900_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f57f17;
 }
 .btn__yellow900_floating:hover {
@@ -5568,7 +5568,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__yellow900_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f57f17;
 }
 .btn__yellow900_raised:hover {
@@ -5597,7 +5597,7 @@
   background: #fff8e1;
 }
 .btn__amber50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff8e1;
 }
 .btn__amber50_floating:hover {
@@ -5611,7 +5611,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff8e1;
 }
 .btn__amber50_raised:hover {
@@ -5640,7 +5640,7 @@
   background: #ffecb3;
 }
 .btn__amber100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffecb3;
 }
 .btn__amber100_floating:hover {
@@ -5654,7 +5654,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffecb3;
 }
 .btn__amber100_raised:hover {
@@ -5683,7 +5683,7 @@
   background: #ffe082;
 }
 .btn__amber200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffe082;
 }
 .btn__amber200_floating:hover {
@@ -5697,7 +5697,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffe082;
 }
 .btn__amber200_raised:hover {
@@ -5726,7 +5726,7 @@
   background: #ffd54f;
 }
 .btn__amber300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffd54f;
 }
 .btn__amber300_floating:hover {
@@ -5740,7 +5740,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffd54f;
 }
 .btn__amber300_raised:hover {
@@ -5769,7 +5769,7 @@
   background: #ffca28;
 }
 .btn__amber400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffca28;
 }
 .btn__amber400_floating:hover {
@@ -5783,7 +5783,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffca28;
 }
 .btn__amber400_raised:hover {
@@ -5812,7 +5812,7 @@
   background: #ffc107;
 }
 .btn__amber500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffc107;
 }
 .btn__amber500_floating:hover {
@@ -5826,7 +5826,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffc107;
 }
 .btn__amber500_raised:hover {
@@ -5855,7 +5855,7 @@
   background: #ffb300;
 }
 .btn__amber600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffb300;
 }
 .btn__amber600_floating:hover {
@@ -5869,7 +5869,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffb300;
 }
 .btn__amber600_raised:hover {
@@ -5898,7 +5898,7 @@
   background: #ffa000;
 }
 .btn__amber700_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffa000;
 }
 .btn__amber700_floating:hover {
@@ -5912,7 +5912,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber700_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffa000;
 }
 .btn__amber700_raised:hover {
@@ -5941,7 +5941,7 @@
   background: #ff8f00;
 }
 .btn__amber800_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff8f00;
 }
 .btn__amber800_floating:hover {
@@ -5955,7 +5955,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber800_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff8f00;
 }
 .btn__amber800_raised:hover {
@@ -5984,7 +5984,7 @@
   background: #ff6f00;
 }
 .btn__amber900_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff6f00;
 }
 .btn__amber900_floating:hover {
@@ -5998,7 +5998,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__amber900_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff6f00;
 }
 .btn__amber900_raised:hover {
@@ -6027,7 +6027,7 @@
   background: #fff3e0;
 }
 .btn__orange50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff3e0;
 }
 .btn__orange50_floating:hover {
@@ -6041,7 +6041,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff3e0;
 }
 .btn__orange50_raised:hover {
@@ -6070,7 +6070,7 @@
   background: #ffe0b2;
 }
 .btn__orange100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffe0b2;
 }
 .btn__orange100_floating:hover {
@@ -6084,7 +6084,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffe0b2;
 }
 .btn__orange100_raised:hover {
@@ -6113,7 +6113,7 @@
   background: #ffcc80;
 }
 .btn__orange200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffcc80;
 }
 .btn__orange200_floating:hover {
@@ -6127,7 +6127,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffcc80;
 }
 .btn__orange200_raised:hover {
@@ -6156,7 +6156,7 @@
   background: #ffb74d;
 }
 .btn__orange300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffb74d;
 }
 .btn__orange300_floating:hover {
@@ -6170,7 +6170,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffb74d;
 }
 .btn__orange300_raised:hover {
@@ -6199,7 +6199,7 @@
   background: #ffa726;
 }
 .btn__orange400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffa726;
 }
 .btn__orange400_floating:hover {
@@ -6213,7 +6213,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffa726;
 }
 .btn__orange400_raised:hover {
@@ -6242,7 +6242,7 @@
   background: #ff9800;
 }
 .btn__orange500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff9800;
 }
 .btn__orange500_floating:hover {
@@ -6256,7 +6256,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff9800;
 }
 .btn__orange500_raised:hover {
@@ -6285,7 +6285,7 @@
   background: #fb8c00;
 }
 .btn__orange600_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fb8c00;
 }
 .btn__orange600_floating:hover {
@@ -6299,7 +6299,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange600_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fb8c00;
 }
 .btn__orange600_raised:hover {
@@ -6328,7 +6328,7 @@
   background: #f57c00;
 }
 .btn__orange700_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f57c00;
 }
 .btn__orange700_floating:hover {
@@ -6342,7 +6342,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__orange700_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f57c00;
 }
 .btn__orange700_raised:hover {
@@ -6457,7 +6457,7 @@
   background: #fbe9e7;
 }
 .btn__deeporange50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fbe9e7;
 }
 .btn__deeporange50_floating:hover {
@@ -6471,7 +6471,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeporange50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fbe9e7;
 }
 .btn__deeporange50_raised:hover {
@@ -6500,7 +6500,7 @@
   background: #ffccbc;
 }
 .btn__deeporange100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffccbc;
 }
 .btn__deeporange100_floating:hover {
@@ -6514,7 +6514,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeporange100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffccbc;
 }
 .btn__deeporange100_raised:hover {
@@ -6543,7 +6543,7 @@
   background: #ffab91;
 }
 .btn__deeporange200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffab91;
 }
 .btn__deeporange200_floating:hover {
@@ -6557,7 +6557,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeporange200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ffab91;
 }
 .btn__deeporange200_raised:hover {
@@ -6586,7 +6586,7 @@
   background: #ff8a65;
 }
 .btn__deeporange300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff8a65;
 }
 .btn__deeporange300_floating:hover {
@@ -6600,7 +6600,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeporange300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff8a65;
 }
 .btn__deeporange300_raised:hover {
@@ -6629,7 +6629,7 @@
   background: #ff7043;
 }
 .btn__deeporange400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff7043;
 }
 .btn__deeporange400_floating:hover {
@@ -6643,7 +6643,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__deeporange400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #ff7043;
 }
 .btn__deeporange400_raised:hover {
@@ -6887,7 +6887,7 @@
   background: #efebe9;
 }
 .btn__brown50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #efebe9;
 }
 .btn__brown50_floating:hover {
@@ -6901,7 +6901,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__brown50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #efebe9;
 }
 .btn__brown50_raised:hover {
@@ -6930,7 +6930,7 @@
   background: #d7ccc8;
 }
 .btn__brown100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d7ccc8;
 }
 .btn__brown100_floating:hover {
@@ -6944,7 +6944,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__brown100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #d7ccc8;
 }
 .btn__brown100_raised:hover {
@@ -6973,7 +6973,7 @@
   background: #bcaaa4;
 }
 .btn__brown200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bcaaa4;
 }
 .btn__brown200_floating:hover {
@@ -6987,7 +6987,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__brown200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bcaaa4;
 }
 .btn__brown200_raised:hover {
@@ -7317,7 +7317,7 @@
   background: #fafafa;
 }
 .btn__gray50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fafafa;
 }
 .btn__gray50_floating:hover {
@@ -7331,7 +7331,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fafafa;
 }
 .btn__gray50_raised:hover {
@@ -7360,7 +7360,7 @@
   background: #f5f5f5;
 }
 .btn__gray100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f5f5f5;
 }
 .btn__gray100_floating:hover {
@@ -7374,7 +7374,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #f5f5f5;
 }
 .btn__gray100_raised:hover {
@@ -7403,7 +7403,7 @@
   background: #eeeeee;
 }
 .btn__gray200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #eeeeee;
 }
 .btn__gray200_floating:hover {
@@ -7417,7 +7417,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #eeeeee;
 }
 .btn__gray200_raised:hover {
@@ -7446,7 +7446,7 @@
   background: #e0e0e0;
 }
 .btn__gray300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0e0e0;
 }
 .btn__gray300_floating:hover {
@@ -7460,7 +7460,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #e0e0e0;
 }
 .btn__gray300_raised:hover {
@@ -7489,7 +7489,7 @@
   background: #bdbdbd;
 }
 .btn__gray400_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bdbdbd;
 }
 .btn__gray400_floating:hover {
@@ -7503,7 +7503,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray400_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #bdbdbd;
 }
 .btn__gray400_raised:hover {
@@ -7532,7 +7532,7 @@
   background: #9e9e9e;
 }
 .btn__gray500_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9e9e9e;
 }
 .btn__gray500_floating:hover {
@@ -7546,7 +7546,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__gray500_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #9e9e9e;
 }
 .btn__gray500_raised:hover {
@@ -7747,7 +7747,7 @@
   background: #eceff1;
 }
 .btn__bluegray50_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #eceff1;
 }
 .btn__bluegray50_floating:hover {
@@ -7761,7 +7761,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__bluegray50_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #eceff1;
 }
 .btn__bluegray50_raised:hover {
@@ -7790,7 +7790,7 @@
   background: #cfd8dc;
 }
 .btn__bluegray100_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #cfd8dc;
 }
 .btn__bluegray100_floating:hover {
@@ -7804,7 +7804,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__bluegray100_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #cfd8dc;
 }
 .btn__bluegray100_raised:hover {
@@ -7833,7 +7833,7 @@
   background: #b0bec5;
 }
 .btn__bluegray200_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b0bec5;
 }
 .btn__bluegray200_floating:hover {
@@ -7847,7 +7847,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__bluegray200_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #b0bec5;
 }
 .btn__bluegray200_raised:hover {
@@ -7876,7 +7876,7 @@
   background: #90a4ae;
 }
 .btn__bluegray300_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #90a4ae;
 }
 .btn__bluegray300_floating:hover {
@@ -7890,7 +7890,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__bluegray300_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #90a4ae;
 }
 .btn__bluegray300_raised:hover {
@@ -8214,7 +8214,7 @@
   background: #fff;
 }
 .btn__white_floating {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff;
 }
 .btn__white_floating:hover {
@@ -8228,7 +8228,7 @@
   background: rgba(0, 0, 0, 0.2);
 }
 .btn__white_raised {
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
   background: #fff;
 }
 .btn__white_raised:disabled {
