@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-material-button-color",
+  "name": "bootstrap-material-btn-color",
   "version": "0.1.0",
   "description": "Material Button",
   "main": "cb-materialbtn.min.css",
@@ -10,8 +10,8 @@
     "style"
   ],
   "scripts": {
-    "watch": "sass --watch ./src/app.scss:./dist/cb-materialbtn.css --style expanded",
-    "build": "sass ./src/app.scss:./dist/cb-materialbtn.min.css --style compressed"
+    "watch": "sass --watch ./src/color_all.scss:./dist/cb-materialbtn.css --style expanded",
+    "build": "sass ./src/color_all.scss:./dist/cb-materialbtn.min.css --style compressed"
   },
   "repository": {
     "type": "git",
