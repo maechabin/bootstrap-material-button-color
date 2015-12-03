@@ -151,7 +151,8 @@
     &_floating {
       color: textColor($color, $key) !important;
       background: $value;
-      &:hover {
+      &:hover,
+      &:focus  {
         background: adjust-color($value, $alpha: -0.4);
       }
       &:active {
@@ -165,7 +166,8 @@
     &_raised {
       color: textColor($color, $key) !important;
       background: $value;
-      &:hover {
+      &:hover,
+      &:focus  {
         background: darken($value, 10%);
       }
       &:active {
@@ -178,7 +180,8 @@
     }
     &_flat {
       color: $value !important;
-      &:hover {
+      &:hover,
+      &:focus  {
         background: adjust-color($value, $alpha: -0.8);
       }
       &:active {
