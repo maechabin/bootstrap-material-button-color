@@ -1,7 +1,3 @@
-$color-list: "red", "pink", "purple", "deeppurple", "indigo", "blue", "lightblue",
-  "cyan", "teal", "green", "lightgreen", "lime", "yellow", "amber", "orange",
-  "deeporange", "brown", "gray", "bluegray", "black", "white";
-
 $red: (
   50: #ffebee, 100: #ffcdd2, 200: #e57373, 300: #e57373, 400: #ef5350,
   500: #f44336, 600: #e53935, 700: #d32f2f, 800: #c62828, 900: #b71c1c
@@ -14,7 +10,7 @@ $purple: (
   50: #f3e5f5, 100: #e1bee7, 200: #ce93d8, 300: #ba68c8, 400: #ab47bc,
   500: #9c27b0, 600: #8e24aa, 700: #7b1fa2, 800: #6a1b9a, 900: #4a148c
 );
-$deeppurple :(
+$deeppurple: (
   50: #ede7f6, 100: #d1c4e9, 200: #b39ddb, 300: #9575cd, 400: #7e57c2,
   500: #673ab7, 600: #5e35b1, 700: #512da8, 800: #4527a0, 900: #311b92
 );
@@ -80,5 +76,3 @@ $bluegray: (
 );
 $black: (1000: #000);
 $white: (0: #fff);
-
-@import "app";
