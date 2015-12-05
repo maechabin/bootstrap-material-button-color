@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-material-btn-color",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Material Button",
   "main": "cb-materialbtn.min.css",
   "author": "maechabin",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "bootstrap": "^3.3.5",
     "gulp": "^3.9.0",
+    "gulp-header": "^1.7.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.0"
   },
