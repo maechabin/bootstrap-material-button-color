@@ -224,3 +224,7 @@
     box-shadow: none;
   }
 }
+[class$="_flat"],
+[class*="_flat "] {
+  background: none;
+}

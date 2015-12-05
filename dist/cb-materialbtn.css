@@ -1,6 +1,6 @@
 /**
  * bootstrap-material-btn-color - Material Button
- * @version v0.3.1
+ * @version v0.3.2
  * @author maechabin
  * @license MIT License
  */
@@ -4466,7 +4466,7 @@
 }
 
 .btn-cyan900_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-cyan900_raised:disabled {
@@ -5026,7 +5026,7 @@
 }
 
 .btn-teal900_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-teal900_raised:disabled {
@@ -9506,7 +9506,7 @@
 }
 
 .btn-brown900_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-brown900_raised:disabled {
@@ -9614,7 +9614,7 @@
 }
 
 .btn-gray100_raised:hover, .btn-gray100_raised:focus {
-  background: #dcdcdc;
+  background: gainsboro;
 }
 
 .btn-gray100_raised:active {
@@ -9643,12 +9643,12 @@
 }
 
 .btn-gray200 {
-  background: #eee;
+  background: #eeeeee;
 }
 
 .btn-gray200_floating {
   color: rgba(0, 0, 0, 0.9) !important;
-  background: #eee;
+  background: #eeeeee;
 }
 
 .btn-gray200_floating:hover, .btn-gray200_floating:focus {
@@ -9666,7 +9666,7 @@
 
 .btn-gray200_raised {
   color: rgba(0, 0, 0, 0.9) !important;
-  background: #eee;
+  background: #eeeeee;
 }
 
 .btn-gray200_raised:hover, .btn-gray200_raised:focus {
@@ -9674,7 +9674,7 @@
 }
 
 .btn-gray200_raised:active {
-  background: #bbb;
+  background: #bbbbbb;
 }
 
 .btn-gray200_raised:disabled {
@@ -9683,7 +9683,7 @@
 }
 
 .btn-gray200_flat {
-  color: #eee !important;
+  color: #eeeeee !important;
 }
 
 .btn-gray200_flat:hover, .btn-gray200_flat:focus {
@@ -10066,7 +10066,7 @@
 }
 
 .btn-gray900_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-gray900_raised:disabled {
@@ -10626,7 +10626,7 @@
 }
 
 .btn-bluegray900_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-bluegray900_raised:disabled {
@@ -10678,11 +10678,11 @@
 }
 
 .btn-black_raised:hover, .btn-black_raised:focus {
-  background: #000;
+  background: black;
 }
 
 .btn-black_raised:active {
-  background: #000;
+  background: black;
 }
 
 .btn-black_raised:disabled {
@@ -10738,7 +10738,7 @@
 }
 
 .btn-white_raised:active {
-  background: #ccc;
+  background: #cccccc;
 }
 
 .btn-white_raised:disabled {
@@ -10762,26 +10762,37 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-[class$="_floating"], [class*="_floating "] {
+[class$="_floating"],
+[class*="_floating "] {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-[class$="_floating"]:active, [class*="_floating "]:active {
+[class$="_floating"]:active,
+[class*="_floating "]:active {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
 }
 
-[class$="_floating"]:disabled, [class*="_floating "]:disabled {
+[class$="_floating"]:disabled,
+[class*="_floating "]:disabled {
   box-shadow: none;
 }
 
-[class$="_raised"], [class*="_raised "] {
+[class$="_raised"],
+[class*="_raised "] {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
 }
 
-[class$="_raised"]:active, [class*="_raised "]:active {
+[class$="_raised"]:active,
+[class*="_raised "]:active {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-[class$="_raised"]:disabled, [class*="_raised "]:disabled {
+[class$="_raised"]:disabled,
+[class*="_raised "]:disabled {
   box-shadow: none;
+}
+
+[class$="_flat"],
+[class*="_flat "] {
+  background: none;
 }

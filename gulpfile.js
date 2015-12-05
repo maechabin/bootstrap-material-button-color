@@ -14,18 +14,6 @@ var banner = ['/**',
   ' */',
   ''].join("\n");
 
-  gulp.task('sass:all', function () {
-    gulp.src('./dist/*.css')
-    .pipe(sass({outputStyle: 'expanded'}))
-    .pipe(rename('cb-materialbtn.css'))
-    .pipe(header(banner, {pkg: pkg}))
-    .pipe(gulp.dest('./dist'))
-    .pipe(sass({outputStyle: 'compressed'}))
-    .pipe(rename('cb-materialbtn.min.css'))
-    .pipe(header(banner, {pkg: pkg}))
-    .pipe(gulp.dest('./dist'));
-  });
-
 gulp.task('sass:color', function () {
   gulp.src('./src/color/*.scss')
     .pipe(sass({outputStyle: 'compressed'}))
@@ -34,6 +22,18 @@ gulp.task('sass:color', function () {
     }))
     .pipe(header(banner, {pkg: pkg}))
     .pipe(gulp.dest('./dist/color'));
+});
+
+gulp.task('sass:all', function () {
+  gulp.src('./src/*.scss')
+  .pipe(sass({outputStyle: 'expanded'}))
+  .pipe(rename('cb-materialbtn.css'))
+  .pipe(header(banner, {pkg: pkg}))
+  .pipe(gulp.dest('./dist'))
+  .pipe(sass({outputStyle: 'compressed'}))
+  .pipe(rename('cb-materialbtn.min.css'))
+  .pipe(header(banner, {pkg: pkg}))
+  .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('sass:watch', function () {
