@@ -6,6 +6,7 @@ var rename = require("gulp-rename");
 var sass = require('gulp-sass');
 
 var pkg = require("./package.json");
+var version = pkg.version;
 var banner = ['/**',
   ' * <%= pkg.name %> - <%= pkg.description %>',
   ' * @version v<%= pkg.version %>',
@@ -32,6 +33,10 @@ gulp.task('sass:all', function () {
   .pipe(gulp.dest('./dist'))
   .pipe(sass({outputStyle: 'compressed'}))
   .pipe(rename('cb-materialbtn.min.css'))
+  .pipe(header(banner, {pkg: pkg}))
+  .pipe(gulp.dest('./dist'))
+  .pipe(sass({outputStyle: 'compressed'}))
+  .pipe(rename('cb-materialbtn.' + version + '.min.css'))
   .pipe(header(banner, {pkg: pkg}))
   .pipe(gulp.dest('./dist'));
 });
