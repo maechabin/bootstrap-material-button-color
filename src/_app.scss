@@ -148,7 +148,7 @@
 
   @mixin _type($key, $value, $color) {
     background: $value;
-    &_floating {
+    &_ftg {
       color: textColor($color, $key) !important;
       background: $value;
       &:hover,
@@ -163,7 +163,7 @@
         background: adjust-color(#000, $alpha: -0.8);
       }
     }
-    &_raised {
+    &_rsd {
       color: textColor($color, $key) !important;
       background: $value;
       &:hover,
@@ -178,7 +178,7 @@
         background: adjust-color(#000, $alpha: -0.8);
       }
     }
-    &_flat {
+    &_flt {
       color: $value !important;
       &:hover,
       &:focus  {
@@ -204,8 +204,8 @@
   @include -color;
 
 }
-[class$="_floating"],
-[class*="_floating "] {
+[class$="_ftg"],
+[class*="_ftg "] {
   border-radius: 50%;
   display: -webkit-inline-flex;
   display: inline-flex;
@@ -226,8 +226,8 @@
     box-shadow: none;
   }
 }
-[class$="_raised"],
-[class*="_raised "] {
+[class$="_rsd"],
+[class*="_rsd "] {
   box-shadow: 0 1px 2px 0 rgba(0,0,0, .12),0 1px 1px 0 rgba(0,0,0, .24);
   &:active {
     box-shadow: 0 0 4px rgba(0,0,0, .14),0 4px 8px rgba(0,0,0, .28);
@@ -236,7 +236,7 @@
     box-shadow: none;
   }
 }
-[class$="_flat"],
-[class*="_flat "] {
+[class$="_flt"],
+[class*="_flt "] {
   background: none;
 }
