@@ -1,6 +1,6 @@
 .btn {
-  text-decoration: none;
-  outline: none;
+  outline: none !important;
+  text-decoration: none !important;
   transition: .3s;
 
   $color-chart: ();
@@ -206,7 +206,19 @@
 }
 [class$="_floating"],
 [class*="_floating "] {
+  border-radius: 50%;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 8px;
   box-shadow: 0 0 4px rgba(0,0,0, .14),0 4px 8px rgba(0,0,0, .28);
+  &:after {
+    padding-top: calc(100%);
+    content: "";
+  }
   &:active {
     box-shadow: 0 1px 2px 0 rgba(0,0,0, .12),0 1px 1px 0 rgba(0,0,0, .24);
   }
