@@ -54,10 +54,10 @@
     @else if $c == "brown" and $k >= 300 {
       @return #fff;
     }
-    @else if $c == "gray" and $k >= 600 {
+    @else if $c == "grey" and $k >= 600 {
       @return #fff;
     }
-    @else if $c == "bluegray" and $k >= 400 {
+    @else if $c == "bluegrey" and $k >= 400 {
       @return #fff;
     }
     @else if $c == "black" {
@@ -121,11 +121,11 @@
     @else if $c == "brown" {
       $color-chart: $brown;
     }
-    @else if $c == "gray" {
-      $color-chart: $gray;
+    @else if $c == "grey" {
+      $color-chart: $grey;
     }
-    @else if $c == "bluegray" {
-      $color-chart: $bluegray;
+    @else if $c == "bluegrey" {
+      $color-chart: $bluegrey;
     }
     @else if $c == "black" {
       $color-chart: $black;
