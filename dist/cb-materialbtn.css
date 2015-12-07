@@ -10775,12 +10775,6 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-[class$="_ftg"]:after,
-[class*="_ftg "]:after {
-  padding-top: calc(100%);
-  content: "";
-}
-
 [class$="_ftg"]:active,
 [class*="_ftg "]:active {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
