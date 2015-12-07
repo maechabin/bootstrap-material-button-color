@@ -1,6 +1,6 @@
 /**
  * bootstrap-material-btn-color - Material Button
- * @version v0.5.2
+ * @version v0.5.3
  * @author maechabin
  * @license MIT License
  */
@@ -1863,7 +1863,7 @@
 }
 
 .btn-deeppurple300_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #9575cd;
 }
 
@@ -1881,7 +1881,7 @@
 }
 
 .btn-deeppurple300_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #9575cd;
 }
 
@@ -1919,7 +1919,7 @@
 }
 
 .btn-deeppurple400_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #7e57c2;
 }
 
@@ -1937,7 +1937,7 @@
 }
 
 .btn-deeppurple400_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #7e57c2;
 }
 
@@ -1975,7 +1975,7 @@
 }
 
 .btn-deeppurple500_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #673ab7;
 }
 
@@ -1993,7 +1993,7 @@
 }
 
 .btn-deeppurple500_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #673ab7;
 }
 
@@ -2031,7 +2031,7 @@
 }
 
 .btn-deeppurple600_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #5e35b1;
 }
 
@@ -2049,7 +2049,7 @@
 }
 
 .btn-deeppurple600_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #5e35b1;
 }
 
@@ -2087,7 +2087,7 @@
 }
 
 .btn-deeppurple700_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #512da8;
 }
 
@@ -2105,7 +2105,7 @@
 }
 
 .btn-deeppurple700_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #512da8;
 }
 
@@ -2143,7 +2143,7 @@
 }
 
 .btn-deeppurple800_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #4527a0;
 }
 
@@ -2161,7 +2161,7 @@
 }
 
 .btn-deeppurple800_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #4527a0;
 }
 
@@ -2199,7 +2199,7 @@
 }
 
 .btn-deeppurple900_ftg {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #311b92;
 }
 
@@ -2217,7 +2217,7 @@
 }
 
 .btn-deeppurple900_rsd {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
   background: #311b92;
 }
 
