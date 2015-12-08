@@ -1,6 +1,6 @@
 /**
  * bootstrap-material-btn-color - Material Button
- * @version v0.5.3
+ * @version v0.5.4
  * @author maechabin
  * @license MIT License
  */
@@ -10765,8 +10765,7 @@
 [class$="_ftg"],
 [class*="_ftg "] {
   border-radius: 50%;
-  display: -webkit-inline-flex;
-  display: inline-flex;
+  display: inline-block;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -10783,6 +10782,12 @@
 [class$="_ftg"]:disabled,
 [class*="_ftg "]:disabled {
   box-shadow: none;
+}
+
+a[class$="_ftg"],
+a[class*="_ftg "] {
+  display: -webkit-inline-flex;
+  display: inline-flex;
 }
 
 [class$="_rsd"],

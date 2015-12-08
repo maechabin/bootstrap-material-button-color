@@ -207,8 +207,7 @@
 [class$="_ftg"],
 [class*="_ftg "] {
   border-radius: 50%;
-  display: -webkit-inline-flex;
-  display: inline-flex;
+  display: inline-block;
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
@@ -221,6 +220,11 @@
   &:disabled {
     box-shadow: none;
   }
+}
+a[class$="_ftg"],
+a[class*="_ftg "] {
+  display: -webkit-inline-flex;
+  display: inline-flex;
 }
 [class$="_rsd"],
 [class*="_rsd "] {
