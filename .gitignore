@@ -1,5 +1,3 @@
-dist/cb-materialbtn.css.map
-dist/cb-materialbtn.min.css.map
 .DS_Store
 node_modules/
 .sass-cache/
