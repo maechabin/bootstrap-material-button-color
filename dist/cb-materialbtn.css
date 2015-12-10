@@ -1,13 +1,16 @@
 /**
  * bootstrap-material-btn-color - Material Button
- * @version v0.5.4
+ * @version v0.5.5
  * @author maechabin
  * @license MIT License
  */
 .btn {
+  border: none;
+  cursor: pointer;
   outline: none !important;
   text-decoration: none !important;
   transition: .3s;
+  box-sizing: border-box;
 }
 
 .btn-red50 {
@@ -10782,6 +10785,7 @@
 [class$="_ftg"]:disabled,
 [class*="_ftg "]:disabled {
   box-shadow: none;
+  cursor: not-allowed;
 }
 
 a[class$="_ftg"],
@@ -10803,9 +10807,16 @@ a[class*="_ftg "] {
 [class$="_rsd"]:disabled,
 [class*="_rsd "]:disabled {
   box-shadow: none;
+  cursor: not-allowed;
 }
 
 [class$="_flt"],
 [class*="_flt "] {
+  background: none;
+}
+
+[class$="_flt"]:disabled,
+[class*="_flt "]:disabled {
+  cursor: not-allowed;
   background: none;
 }

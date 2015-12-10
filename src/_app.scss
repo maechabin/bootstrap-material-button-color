@@ -1,7 +1,10 @@
 .btn {
+  border: none;
+  cursor: pointer;
   outline: none !important;
   text-decoration: none !important;
   transition: .3s;
+  box-sizing: border-box;
 
   $color-chart: ();
 
@@ -219,6 +222,7 @@
   }
   &:disabled {
     box-shadow: none;
+    cursor: not-allowed;
   }
 }
 a[class$="_ftg"],
@@ -234,9 +238,14 @@ a[class*="_ftg "] {
   }
   &:disabled {
     box-shadow: none;
+    cursor: not-allowed;
   }
 }
 [class$="_flt"],
 [class*="_flt "] {
   background: none;
+  &:disabled {
+    cursor: not-allowed;
+    background: none;
+  }
 }
